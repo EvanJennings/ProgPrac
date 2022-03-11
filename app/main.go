@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/evanjennings/progprac/App/config"
-	"github.com/evanjennings/progprac/App/handler"
-	"github.com/evanjennings/progprac/App/server"
+	"github.com/evanjennings/progprac/app/config"
+	"github.com/evanjennings/progprac/app/handler"
+	"github.com/evanjennings/progprac/app/server"
 	"github.com/kevinanthony/gorps/http"
 )
 

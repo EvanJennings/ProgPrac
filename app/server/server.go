@@ -3,7 +3,7 @@ package server
 import (
 	native "net/http"
 
-	"github.com/evanjennings/progprac/App/handler"
+	"github.com/evanjennings/progprac/app/handler"
 	"github.com/kevinanthony/gorps/http"
 
 	"github.com/go-chi/chi"
