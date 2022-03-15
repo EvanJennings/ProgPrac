@@ -27,6 +27,8 @@ func NewServer(reqh http.RequestHandler, calc handler.Calc) HTTPServer {
 		MaxAge:           300, // Maximum value not ignored by any of major browsers
 	}))
 
+	server.mux.Post("/sum", reqh.Handle(calc.Add))
+
 	return server
 }
 
